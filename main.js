@@ -35,8 +35,8 @@ function gotPoses(results){
 
 function draw(){
     background("#c2c2a3");
-    fill("#ffff00");
-    stroke("#00ffff");
+    fill("#0033cc");
+    stroke("#ffcc00");
     textSize(difference)
     text("Deepak" , noseX , noseY);
     document.getElementById("hello").innerHTML = difference;
